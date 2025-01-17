@@ -1,0 +1,8 @@
+
+## Backend State
+region         = "us-east-1"
+bucket         = "tfstate-bucket"
+key            = "cicd/django/terraform.tfstate"
+#key            = "cicd/fastapi/terraform.tfstate"
+dynamodb_table = "tfstate-locking"
+encrypt        = true
